@@ -1,6 +1,6 @@
 name: text_placeholder
-description: Add placeholder to the Text widget
-version: 0.0.1
+description: Add placeholder to the Text widget. When the text is empty, the placeholder will be displayed. You are also allowed to add style to placeholder.
+version: 0.0.2
 author: DEDZTBH <i@dedztbh.com>
 homepage: https://github.com/DEDZTBH/flutter_text_placeholder
 

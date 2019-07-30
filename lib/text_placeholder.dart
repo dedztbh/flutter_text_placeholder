@@ -3,12 +3,9 @@ library text_placeholder;
 import 'package:flutter/material.dart' as f;
 
 class Text extends f.Text {
-
-  final bool isPlaceholderActive;
-
   Text(String data, {
     placeholder = "",
-    f.TextStyle placeholderStyle = const f.TextStyle(color: f.Colors.black12),
+    f.TextStyle placeholderStyle = const f.TextStyle(color: f.Colors.black26),
     f.Key key,
     f.TextStyle style,
     f.StrutStyle strutStyle,
@@ -22,7 +19,6 @@ class Text extends f.Text {
     String semanticsLabel,
     f.TextWidthBasis textWidthBasis,
   }):
-        isPlaceholderActive = data == "",
         super(data == "" ? placeholder : data,
             key: key,
             style: data == "" ? (style == null ? placeholderStyle : style.merge(placeholderStyle)) : style,
