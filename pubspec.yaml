@@ -1,8 +1,8 @@
 name: text_placeholder
 description: Add placeholder to the Text widget
 version: 0.0.1
-author: DEDZTBH
-homepage:
+author: DEDZTBH <i@dedztbh.com>
+homepage: https://github.com/DEDZTBH/flutter_text_placeholder
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
